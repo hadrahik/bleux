@@ -1,0 +1,419 @@
+*{
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*menu*/
+#contenedor-padre{
+    align-items: center;
+}
+body{
+    max-width:fit-content;
+    margin: auto;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1e172f;
+    flex-wrap: wrap;
+}
+nav button{
+    border: none;
+    height: 40px;
+    width: 120px;
+    color: white;
+    background:linear-gradient(to right, #883fd5, #0c7bd5);
+    border-radius: 5px;
+    margin: 5px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 500px;
+}
+nav ul li{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+nav ul li a{
+    color: #807b8a;
+    text-decoration: none;
+    padding: 5px;
+}
+a:hover{
+    color: white;
+}
+#contenedor1{
+    padding-right: 15px;
+}
+/*termina el menu*/
+
+/*primera parte*/
+/*izquierda*/
+#primero-parte{
+    display: flex;
+    background-color: #2e2550;
+}
+#izquierda{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    height: 650px;
+    width: 900px;
+    background-color: #2e2550;
+    float:none;
+}
+#izquierda h1{
+    height: 165px;
+    color: white;
+    font-size: 50px;
+}
+#izquierda p{
+    height: 60px;
+    color: white;
+}
+#contenedor2{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    height: 40px;
+    width: 265px;
+    border: solid 1px #494267;
+    border-radius: 10px;
+}
+#contenedor2 button{
+    width: 130px;
+   border: 2px solid white;
+   border-radius: 5px;
+}
+#descarga{
+    color: #f88bc3;
+}
+#factura{
+    color: white;
+    background-color: transparent;
+}
+/*fin izquierdo*/
+
+/*derecho*/
+#derecha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 780px;
+    background-image: url(/img/hojarasca.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#derecha div{
+    width: 760px;
+}
+.cell{  
+    padding-left: 100px;
+}
+/* fin derecha */
+
+/* segunda parte */
+#segunda-parte{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f2f7;
+}
+#segunda-parte h2{
+    text-align: center;
+    height: 90px;
+    width: 425px;
+    font-size: 40px;
+    color: #f41486;
+}
+#segunda-parte article h3{
+    height: 60px;
+}
+#contenidos{
+    display: flex;
+    justify-content: space-between;
+    width: 855px;
+}
+article h3{
+    color: #f41486;
+   text-align: center;
+   font-size: 40px;
+   font-weight: 200;
+}
+article h4{
+    margin: 15px 0px;
+    color: #e05a9f;
+    font-weight: 200;
+    font-size: 20px;
+}
+.diseño ul{
+    list-style: none;
+    padding: 0;
+}
+.diseño li::before{
+    content: "☑";
+    margin-right: 5px;
+    color: #e05a9f;
+}
+/* FIN SEGUNDA PARTE */
+
+/* TERCERA PARTE */
+#tercera-parte{
+    background-color: #1e172f;
+    height: auto;;
+}
+#contenedor-3{
+    display: flex;
+    justify-content: center;
+}
+#texto{
+    height: 110px;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px;
+}
+#tercera-parte h3{
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 50px;
+}
+#mini-contenedores{
+    display: flex;
+    justify-content: space-evenly;
+    width: 925px;
+    flex-wrap: wrap;
+}
+#mini-contenedores span{
+    font-size: 20px;
+    font-weight: 600;
+}
+.mini{
+    border: 5px solid;
+    width: 285px;
+    height: 560px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+#conte{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 110px;
+}
+.monei{
+    display: flex;
+    justify-content: center;
+    height: 65px;
+    background-color: #92929226;
+}
+.monei #valor{
+    font-size: 45px;
+}
+
+.lista{
+    height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lista ul{
+    height: 160px;
+    width: 235px;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.estrella1::before{
+    content: "★";
+    margin-right: 30px;
+    color: #e05a9f;
+}
+.chulo1::before{
+    content: "✔";
+    margin-right: 30px;
+    color:#e05a9f;
+}
+
+.estrella::before{
+    content: "★";
+    margin-right: 30px;
+}
+.chulo::before{
+        content: "✔";
+        margin-right: 30px;
+}
+.x::before{
+    content: "✖";
+    margin-right: 30px;
+}
+.contenedor-mini{
+    display: flex;
+    align-items: center;
+    height: 150px;
+    text-align: center;
+}
+.contenedor-mini p{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+.suscribe1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    background-color: #f1f1f1;
+}
+.suscribe1 button{
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background:linear-gradient(to right, #eb61a8, #f31c89);
+}
+.suscribe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    background-color: #f1f1f1;
+}
+.suscribe button{
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background:#1e172f;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+}
+
+.redes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.redes ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 200px;
+}
+.redes ul li{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+
+@media screen and (max-width: 1200px) {
+    
+    body{
+        width: 100%;   
+        height: 100%; 
+    }
+    #izquierda{
+        width: 950px;
+    }
+    #derecha div{
+        width:500px;
+    }
+}
+
+
+@media screen and (max-width: 992px){
+    #primero-parte{
+        background-image: url(/img/hojarasca.png);
+        max-width: 100%;
+    }
+    #izquierda{
+        background:none;
+        width: 730px;  
+    }
+    #derecha{
+        display: none; 
+    }
+    #segunda-parte{
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    body{
+        height: cover;
+    }
+    #izquierda{
+        width: 630px;  
+    }
+    .laptop{
+        display: none;
+    }
+    #contenidos{
+        width:390px;
+    }
+    #mini-contenedores{
+        margin-bottom: 30px;
+    }
+    footer{
+        justify-content: space-evenly;
+    }
+    p.texto-final{
+        padding-left: 30px ;
+    }
+    ul{
+        padding-left: 0px;
+    }
+
+}
+
+
+@media screen and (max-width: 480px){
+    body{
+        width: 500px;
+        
+    }
+    nav{
+    flex-wrap: wrap; 
+    height: 150px;
+    }
+    nav ul li a{
+        padding: 5px
+    }
+    #tercera-parte h3 {
+    padding: 9px;
+    
+    }
+    #texto{
+        height: 130px;
+    }
+    footer{
+        margin: 10px;
+    }
+    p.texto-final{
+        padding-left: 30px ;
+    }
+    ul{
+        padding-left: 0px;
+    }
+
+
+
+
+}
